@@ -1,0 +1,82 @@
+{
+  "num_cols": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "balconies",
+    "age_years",
+    "floor",
+    "total_floors",
+    "parking"
+  ],
+  "cat_cols": [
+    "location",
+    "furnishing",
+    "property_type"
+  ],
+  "categories": {
+    "location": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai",
+      "Pune"
+    ],
+    "furnishing": [
+      "Furnished",
+      "Semi-Furnished",
+      "Unfurnished"
+    ],
+    "property_type": [
+      "Apartment",
+      "Independent House",
+      "Studio",
+      "Villa"
+    ]
+  },
+  "ranges": {
+    "area_sqft": {
+      "min": 401,
+      "max": 5999,
+      "median": 3237
+    },
+    "bedrooms": {
+      "min": 1,
+      "max": 5,
+      "median": 3
+    },
+    "bathrooms": {
+      "min": 1,
+      "max": 4,
+      "median": 3
+    },
+    "balconies": {
+      "min": 0,
+      "max": 3,
+      "median": 1
+    },
+    "age_years": {
+      "min": 0,
+      "max": 29,
+      "median": 14
+    },
+    "floor": {
+      "min": 0,
+      "max": 39,
+      "median": 8
+    },
+    "total_floors": {
+      "min": 1,
+      "max": 39,
+      "median": 20
+    },
+    "parking": {
+      "min": 0,
+      "max": 2,
+      "median": 1
+    }
+  },
+  "n_rows": 6000
+}
